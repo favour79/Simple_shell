@@ -96,7 +96,7 @@ int set_alias(char *alias_string, data_of_program *data)
 			data->alias_list[j][i] == '=')
 		{/* if the alias alredy exist */
 			free(data->alias_list[j]);
-OBOBOB			break;
+			break;
 		}
 
 	/* add the alias */
